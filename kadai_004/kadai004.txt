@@ -1,0 +1,41 @@
+PS C:\Users\Owner\Desktop\sumurai提出> cd C:\Users\Owner\Desktop
+PS C:\Users\Owner\Desktop> mkdir kadai_004
+
+
+    ディレクトリ: C:\Users\Owner\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/09/25     21:37                kadai_004
+
+
+PS C:\Users\Owner\Desktop> cd kadai_004
+PS C:\Users\Owner\Desktop\kadai_004> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\Owner\Desktop\kadai_004
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/09/25     21:37                git_challenge
+
+
+PS C:\Users\Owner\Desktop\kadai_004> cd git_challenge
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git init
+Initialized empty Git repository in C:/Users/Owner/Desktop/kadai_004/git_challenge/.git/       
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> echo "Hello,world!" >>hello_world.txt       
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 3ea7193] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git commit -m "日本語訳を追記"
+[main f6cff46] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge> git log --oneline
+f6cff46 (HEAD -> main) 日本語訳を追記
+3ea7193 最初のコミット
+PS C:\Users\Owner\Desktop\kadai_004\git_challenge>
